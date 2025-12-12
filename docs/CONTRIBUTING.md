@@ -1,17 +1,18 @@
-# Contributing to BlackRoad OS Home
+# Contributing to BlackRoad OS Home (Archived)
 
 ## Adding Handbook Pages
 
-1. Create a new `.mdx` file under `pages/` with front-matter:
+1. Contribute active changes in the canonical [`blackroad-os-web`](https://github.com/BlackRoad-OS/blackroad-os-web) repository. This archive remains for reference only.
+2. Create a new `.mdx` file under `pages/` with front-matter:
    ```mdx
    ---
    title: Your Page Title
    description: One-line summary
    ---
    ```
-2. Keep pages under 120 lines and use concise section headings.
-3. Update the relevant `_meta.json` to surface the page in navigation.
-4. Run `pnpm lint` to catch formatting issues.
+3. Keep pages under 120 lines and use concise section headings.
+4. Update the relevant `_meta.json` to surface the page in navigation.
+5. Run `pnpm lint` to catch formatting issues.
 
 ## Content Conventions
 

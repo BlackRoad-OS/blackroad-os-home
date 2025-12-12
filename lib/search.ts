@@ -13,7 +13,7 @@ const documents: SearchDocument[] = [
   {
     id: 'welcome',
     title: 'Welcome to BlackRoad OS Home',
-    description: 'Overview, navigation tips, and open TODO markers for the handbook portal.',
+    description: 'Overview, navigation tips, and a link to the active blackroad-os-web handbook portal.',
     href: '/',
     category: 'Home',
     content: 'welcome landing overview home handbook search flexsearch'
