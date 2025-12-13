@@ -9,6 +9,7 @@
     "start:home": "next start -p ${PORT:-3000}",
     "postbuild": "pnpm run generate:toc && pnpm run sign:beacon",
     "lint": "eslint . --ext .ts,.tsx,.md,.mdx",
+    "test": "node --import tsx --test tests/health-api.test.ts tests/security-headers.test.ts",
     "generate:toc": "tsx scripts/generate-toc.ts",
     "sign:beacon": "tsx scripts/postbuild.ts",
     "deploy": "pnpm build && pnpm exec gh-pages -d out"

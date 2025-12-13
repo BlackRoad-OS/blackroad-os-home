@@ -6,11 +6,24 @@ interface HealthResponse {
 }
 
 export default function handler(
-  _req: NextApiRequest,
+  req: NextApiRequest,
   res: NextApiResponse<HealthResponse>
 ) {
+  const serviceName = process.env.SERVICE_NAME || 'blackroad-os-home'
+
+  if (req.method && req.method !== 'GET') {
+    res.setHeader('Allow', 'GET')
+
+    return res.status(405).json({
+      status: 'method_not_allowed',
+      service: serviceName
+    })
+  }
+
+  res.setHeader('Cache-Control', 'no-store')
+
   res.status(200).json({
     status: 'ok',
-    service: process.env.SERVICE_NAME || 'blackroad-os-home'
+    service: serviceName
   })
 }
