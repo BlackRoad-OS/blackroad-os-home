@@ -1,7 +1,33 @@
 {
   "service": "blackroad-os-home",
   "org": "BlackRoad-OS",
-  "dependencies": [],
+  "dependencies": [
+    {
+      "name": "blackroad-os-api",
+      "url": "https://api.blackroad.io",
+      "protocol": "https"
+    },
+    {
+      "name": "blackroad-os-console",
+      "url": "https://app.blackroad.io",
+      "protocol": "https"
+    },
+    {
+      "name": "blackroad-os-docs",
+      "url": "https://docs.blackroad.io",
+      "protocol": "https"
+    },
+    {
+      "name": "blackroad-os-demo",
+      "url": "https://demo.blackroad.io",
+      "protocol": "https"
+    },
+    {
+      "name": "blackroad-os-brand",
+      "url": "https://brand.blackroad.io",
+      "protocol": "https"
+    }
+  ],
   "provides": [
     {
       "name": "blackroad-os-home-api",
