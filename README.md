@@ -1,22 +1,19 @@
-# ⚠️ DEPRECATED - This repository has been archived
+# 📡 Feed Source
 
-> **This repository is deprecated and read-only.**
-> 
-> All code has been migrated to the canonical BlackRoad OS web repository.
+This repository is **fed from** [`blackroad-os-core`](https://github.com/BlackRoad-OS/blackroad-os-core).
 
-## Migration Target
+- Upstream edits should be made in `blackroad-os-core`.
+- Automated sync jobs mirror relevant content into this repository.
+- Local tweaks here will be overwritten by the next feed run.
 
-| Source | Target | PR |
-|--------|--------|-----|
-| `components/`, `PROMPTS/` | [blackroad-os-web](https://github.com/BlackRoad-OS/blackroad-os-web) | [#51](https://github.com/BlackRoad-OS/blackroad-os-web/pull/51) |
+## How to contribute
 
-## New Location
+1. Open a PR against [`blackroad-os-core`](https://github.com/BlackRoad-OS/blackroad-os-core) for any changes.
+2. Once merged upstream, the feed pipeline will refresh this repository.
+3. If the feed breaks, file an issue in `blackroad-os-core` with details.
 
-- **Home Components**: `blackroad-os-web/components/home/`
-- **Prompts**: `blackroad-os-web/docs/PROMPTS/`
+## Traceability
 
----
-
-**Do not create new issues or PRs here. Use the canonical repository above.**
-
-🖤 BlackRoad OS Consolidation - Phase 1
+- Source: `blackroad-os-core` (GitHub)
+- Sync direction: Core ➜ Home
+- Status: Read-only mirror

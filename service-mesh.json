@@ -1,7 +1,14 @@
 {
   "service": "blackroad-os-home",
   "org": "BlackRoad-OS",
-  "dependencies": [],
+  "dependencies": [
+    {
+      "name": "blackroad-os-core",
+      "source": "https://github.com/BlackRoad-OS/blackroad-os-core",
+      "type": "git",
+      "role": "content-feed"
+    }
+  ],
   "provides": [
     {
       "name": "blackroad-os-home-api",
