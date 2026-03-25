@@ -1,44 +1,48 @@
-# 🏠 BlackRoad OS Home
+<!-- BlackRoad SEO Enhanced -->
 
-Operating handbook, governance portal, and templates for teams, humans, and agents.
+# ulackroad os home
 
-## What lives here
+> Part of **[BlackRoad OS](https://blackroad.io)** — Sovereign Computing for Everyone
 
-- **Source of truth** — Decisions, expectations, and rituals in one place.
-- **Composable templates** — Copy/paste agendas and review checklists.
-- **Search-first** — FlexSearch-powered client index across pages.
+[![BlackRoad OS](https://img.shields.io/badge/BlackRoad-OS-ff1d6c?style=for-the-badge)](https://blackroad.io)
+[![BlackRoad OS](https://img.shields.io/badge/Org-BlackRoad-OS-2979ff?style=for-the-badge)](https://github.com/BlackRoad-OS)
+[![License](https://img.shields.io/badge/License-Proprietary-f5a623?style=for-the-badge)](LICENSE)
 
-## Request intake (issues welcomed)
+**ulackroad os home** is part of the **BlackRoad OS** ecosystem — a sovereign, distributed operating system built on edge computing, local AI, and mesh networking by **BlackRoad OS, Inc.**
 
-Use GitHub issues to capture all requests:
+## About BlackRoad OS
 
-- **Feature Request** – For new pages, form flows, or status components. Clearly state the problem and acceptance criteria.
-- **Doc Update** – For edits to the handbook, governance, or templates. Include the impacted pages and desired outcomes.
-- **Task / Agent Task** – For small chores or agent-executable work. Add constraints and "definition of done" so automation can safely run.
+BlackRoad OS is a sovereign computing platform that runs AI locally on your own hardware. No cloud dependencies. No API keys. No surveillance. Built by [BlackRoad OS, Inc.](https://github.com/BlackRoad-OS-Inc), a Delaware C-Corp founded in 2025.
 
-Questions that are not actionable yet belong in [Discussions](https://github.com/BlackRoad-OS/blackroad-os-home/discussions).
+### Key Features
+- **Local AI** — Run LLMs on Raspberry Pi, Hailo-8, and commodity hardware
+- **Mesh Networking** — WireGuard VPN, NATS pub/sub, peer-to-peer communication
+- **Edge Computing** — 52 TOPS of AI acceleration across a Pi fleet
+- **Self-Hosted Everything** — Git, DNS, storage, CI/CD, chat — all sovereign
+- **Zero Cloud Dependencies** — Your data stays on your hardware
 
-## Making changes to core content
+### The BlackRoad Ecosystem
+| Organization | Focus |
+|---|---|
+| [BlackRoad OS](https://github.com/BlackRoad-OS) | Core platform and applications |
+| [BlackRoad OS, Inc.](https://github.com/BlackRoad-OS-Inc) | Corporate and enterprise |
+| [BlackRoad AI](https://github.com/BlackRoad-AI) | Artificial intelligence and ML |
+| [BlackRoad Hardware](https://github.com/BlackRoad-Hardware) | Edge hardware and IoT |
+| [BlackRoad Security](https://github.com/BlackRoad-Security) | Cybersecurity and auditing |
+| [BlackRoad Quantum](https://github.com/BlackRoad-Quantum) | Quantum computing research |
+| [BlackRoad Agents](https://github.com/BlackRoad-Agents) | Autonomous AI agents |
+| [BlackRoad Network](https://github.com/BlackRoad-Network) | Mesh and distributed networking |
+| [BlackRoad Education](https://github.com/BlackRoad-Education) | Learning and tutoring platforms |
+| [BlackRoad Labs](https://github.com/BlackRoad-Labs) | Research and experiments |
+| [BlackRoad Cloud](https://github.com/BlackRoad-Cloud) | Self-hosted cloud infrastructure |
+| [BlackRoad Forge](https://github.com/BlackRoad-Forge) | Developer tools and utilities |
 
-Core here means the policies, rituals, and templates that define how BlackRoad OS operates. To change them:
-
-1. Open a **Doc Update** or **Feature Request** issue describing the change, owner, and success criteria.
-2. Note any linked upstream specs (emoji workflow language, work card template) from `BlackRoad-OS/blackroad-os` so updates stay in sync.
-3. Submit a PR that summarizes the change, updates navigation metadata, and lists any tests run.
-4. For high-impact governance edits, include a short "why we changed this" note in the PR description.
-
-## Contributing
-
-- Add pages under `pages/` with front-matter.
-- Keep content lean (under 120 lines) and prefer bullets over long prose.
-- Run `pnpm lint` before opening a PR.
+### Links
+- **Website**: [blackroad.io](https://blackroad.io)
+- **Documentation**: [docs.blackroad.io](https://docs.blackroad.io)
+- **Chat**: [chat.blackroad.io](https://chat.blackroad.io)
+- **Search**: [search.blackroad.io](https://search.blackroad.io)
 
 ---
 
-**Proprietary Software — BlackRoad OS, Inc.**
 
-This software is proprietary to BlackRoad OS, Inc. Source code is publicly visible for transparency and collaboration. Commercial use, forking, and redistribution are prohibited without written authorization.
-
-**BlackRoad OS — Pave Tomorrow.**
-
-*Copyright 2024-2026 BlackRoad OS, Inc. All Rights Reserved.*
