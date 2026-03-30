@@ -35,7 +35,7 @@
     "prettier": "3.8.1",
     "serve": "14.2.6",
     "tsx": "4.21.0",
-    "typescript": "5.9.3",
+    "typescript": "6.0.2",
     "eslint-mdx": "3.7.0"
   }
 }
