@@ -15,7 +15,7 @@
   },
   "dependencies": {
     "flexsearch": "0.8.212",
-    "next": "16.1.6",
+    "next": "16.2.3",
     "nextra": "2.13.3",
     "nextra-theme-docs": "2.13.3",
     "react": "18.3.1",
